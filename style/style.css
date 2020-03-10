@@ -1,0 +1,81 @@
+html{
+			height: 100%;
+		}
+
+		body{
+			background: url(../img/background.jpg) no-repeat center center fixed;
+			height: 100%;
+		}
+
+		#container{
+			height: 100%;
+			width: 100%;
+			display: table;
+
+		}
+
+		#mural{
+			margin: auto;
+  			width: 50%;
+  			text-align: center;
+  			display: table-cell;
+  			vertical-align: middle;
+		}
+
+		#champion{
+		    background: #091120;
+		    padding: 30px;
+		    -webkit-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			border-radius: 10px;
+		}
+
+		.img-champion{
+			border-radius: 50%;
+		    width: 26%;
+		    border: 3px solid #91787e;
+		    -webkit-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+		}
+
+		.img-champion-list{
+			width:  81px;
+			float: left;
+		    margin: 5px;
+
+		}
+
+		.abilities{
+			margin-top: 25px;
+			width: 100%;
+			text-align: center;
+			color: #7386a0;
+   			font-size: 21px;
+		}
+		.abilities img{
+		   width: 90px;
+		}
+
+		.img-passive, .img-{
+			width: 65px !important;
+		}
+
+		#passive-champion img, #abilityQ-champion img, #abilityW-champion img, #abilityE-champion img, #ultimate-champion img,
+		#abilityQ2 img, #abilityW2 img,#abilityE2 img{
+			    width: 30px;
+		}
+
+		#passive-champion, #abilityQ-champion , #abilityW-champion , #abilityE-champion , #ultimate-champion ,
+		#abilityQ2 , #abilityW2 ,#abilityE2 {
+			display: inline;
+		}
+
+		.get-abilities{
+			border-radius: 10px;
+			-webkit-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			box-shadow: 10px 11px 5px 1px rgba(0,0,0,0.75);
+			width: 64px;
+		}
